@@ -11,7 +11,8 @@ export class App extends Component {
         email: "",
         gender: "",
         address: "",
-        bio: ""
+        bio: "",
+        show: false
       }
     }
 
@@ -46,11 +47,12 @@ export class App extends Component {
             firstName, lastName, email, gender, address, bio
         }
         console.log(details);
+        this.setState({ show: true })
         return details;
     }
 
   render() {
-      const { firstName, lastName, email, gender, address, bio } = this.state;
+      const { firstName, lastName, email, gender, address, bio, show } = this.state;
       const { handleFirstName, handleLastName, handleEmail, handleGender, handleAddress, handleBio, handleSubmit } = this;
 
     return (
@@ -94,9 +96,20 @@ export class App extends Component {
                             </Form.Group>
                             <Button type="submit" className="w-100 mb-3">Submit</Button>
                         </Form>
+                        {show ? <div className="my-3">
+                            <p className="text-secondary my-1">First Name: <span className="text-primary my-1">{firstName}</span></p>
+                            <p className="text-secondary my-1">Last Name: <span className="text-primary my-1">{lastName}</span></p>
+                            <p className="text-secondary my-1">Gender: <span className="text-primary my-1">{gender}</span></p>
+                            <p className="text-secondary my-1">Email: <span className="text-primary my-1">{email}</span></p>
+                            <p className="text-secondary my-1">Address: <span className="text-primary my-1">{address}</span></p>
+                            <p className="text-secondary my-1">Bio: <span className="text-primary my-1">{bio}</span></p>
+                        </div> :  ""}
                     </div>
+
                     <div className="col-12 col-md-4"></div>
+
                 </Row>
+
             </Container>
       </div>
     )
