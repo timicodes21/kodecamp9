@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/kodecamp9/static/css/main.274eeac7.chunk.css",
+    "main.js": "/kodecamp9/static/js/main.421ccd67.chunk.js",
+    "main.js.map": "/kodecamp9/static/js/main.421ccd67.chunk.js.map",
+    "runtime-main.js": "/kodecamp9/static/js/runtime-main.292e9d0e.js",
+    "runtime-main.js.map": "/kodecamp9/static/js/runtime-main.292e9d0e.js.map",
+    "static/css/2.0a9ec390.chunk.css": "/kodecamp9/static/css/2.0a9ec390.chunk.css",
+    "static/js/2.292c68f1.chunk.js": "/kodecamp9/static/js/2.292c68f1.chunk.js",
+    "static/js/2.292c68f1.chunk.js.map": "/kodecamp9/static/js/2.292c68f1.chunk.js.map",
+    "static/js/3.3ae871aa.chunk.js": "/kodecamp9/static/js/3.3ae871aa.chunk.js",
+    "static/js/3.3ae871aa.chunk.js.map": "/kodecamp9/static/js/3.3ae871aa.chunk.js.map",
+    "index.html": "/kodecamp9/index.html",
+    "static/css/2.0a9ec390.chunk.css.map": "/kodecamp9/static/css/2.0a9ec390.chunk.css.map",
+    "static/css/main.274eeac7.chunk.css.map": "/kodecamp9/static/css/main.274eeac7.chunk.css.map",
+    "static/js/2.292c68f1.chunk.js.LICENSE.txt": "/kodecamp9/static/js/2.292c68f1.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.292e9d0e.js",
+    "static/css/2.0a9ec390.chunk.css",
+    "static/js/2.292c68f1.chunk.js",
+    "static/css/main.274eeac7.chunk.css",
+    "static/js/main.421ccd67.chunk.js"
+  ]
+}
